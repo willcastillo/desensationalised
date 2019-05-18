@@ -1,7 +1,7 @@
 # desensationalised
 Eliminar titulares sensasionalistas idiotas de sitios webs idiotas (como dolartoday.com)
 
-# Como
+# Cómo hacerlo?
 - Visita [Releases](https://github.com/willcastillo/desensationalised/releases) en este repositorio y baja la versión más reciente de **desensantionalised.zip**
 - En tu navegador **Chrome**, visita **chrome::extensions**
 - Un vez estés en **chrome::extensions**, activa el **Developer Mode**. El botón para hacerlo está ubicado en la esquina superior derecha.
