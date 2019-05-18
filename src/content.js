@@ -4,6 +4,7 @@ if (titles !== null) {
       var title = titles[i].innerText;
 
       title = title.replace(/[\xc2\xa1].*\!\s/i, "");
+      title = title.replace(/[\xc2\xbf].*\?\s/i, "");
       title = title.replace(/\([^)]*\)/, "");
       title = title.replace(/\[[^)]*\]/, "");
 
