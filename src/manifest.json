@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Desensationalised stupid websites",
+  "version": "0.0.1",
+  "description": "Removes stupid sensationalised headlines from stupid sites",
+ 
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://dolartoday.com/*"]
+  }]
+}
