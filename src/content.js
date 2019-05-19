@@ -25,3 +25,14 @@ if (titles !== null) {
       titles[i].innerText = title;
     }
 }
+
+var e = document.getElementsByTagName("title")[0];
+if (e !== null) {
+    var title = e.innerText;
+
+    title = title.replace(/[\xc2\xa1].*\!\s/i, "");
+    title = title.replace(/[\xc2\xbf].*\?\s/i, "");
+    title = title.replace(/\([^)]*\)/, "");
+    title = title.replace(/\[[^)]*\]/, "");
+    e.innerText = title;
+}
